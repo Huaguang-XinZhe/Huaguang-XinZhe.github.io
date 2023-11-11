@@ -1,6 +1,6 @@
 这是 README.md 文件呀，我看看到底还会不会被覆盖！！！
 
-尝试在 VS Code 中更新 README.md 文件。
+尝试在 VS Code 中更新 README.md 文件。还是一样，会强制推送！！！
 
 GitHub 的用户名是不区分大小写的，但是在克隆或访问仓库时，URL 路径是区分大小写的。这意味着无论你在访问仓库 URL 时使用 `Huaguang-XinZhe` 还是 `huaguang-xinzhe`，GitHub 都会将你重定向到相同的仓库。但是，当你将 URL 提供给其他人时，保持使用你创建仓库时的大小写是个好习惯，因为这会影响到一些客户端工具和系统的行为。
 

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Huaguang&#39;s Blog
+  </title>
+  <meta name="description" content="这是行者小辉的博客，欢迎来访。">
+  <meta name="keywords" content="">
+  <meta name="author" content="Huaguang">
+  <link rel="canonical" href="https://huaguang-xinzhe.github.io/2024/03/25/%E4%B8%8D%E7%BE%81%E4%B9%8B%E8%B7%AF/">
+  
+  
+  <link rel="icon" type="image/svg" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 10l7.383 7.418c.823.82.823 2.148 0 2.967a2.11 2.11 0 0 1-2.976 0L10 13"></path><path d="M6.293 15.293l-2.586-2.586a1 1 0 0 1 0-1.414l7.586-7.586a1 1 0 0 1 1.414 0l2.586 2.586a1 1 0 0 1 0 1.414l-7.586 7.586a1 1 0 0 1-1.414 0z"></path></g></svg>'>
+  
+  
+
+  
+<link rel="stylesheet" href="/css/4d4ea9c6.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body id="app">
+  <!-- 响应式布局按钮 -->
+  <a class="side-navigation btn-hover btn-hover-bg tip left" data-tip="展开">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+        <path d="M9 4v16"></path>
+      </g>
+    </svg>
+  </a>
+  <aside>
+    <div>
+      
+<link rel="stylesheet" href="/css/5bfc518f.css">
+
+
+<div class="home-bar">
+  <a href="/" class="tip" data-tip="首页">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+      <path
+        d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22c18.2 6.8 31.3 24.4 31.3 45c0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7c54.4-11.4 98.3-55.4 109.7-109.7c17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9c129.4 7 233.4 112 240.9 241.5c.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9c76.8 6.3 138 68.2 144.9 145.2c.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3c-8.4-110.1-96.5-198.2-206.6-206.7z"
+        fill="currentColor"></path>
+    </svg>
+    <span>华光的博客</span>
+  </a>
+  <!-- 切换主题 -->
+  <a id="toggle-theme" class="tip left" data-tip="切换主题">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+      <path d="M256 118a22 22 0 0 1-22-22V48a22 22 0 0 1 44 0v48a22 22 0 0 1-22 22z" fill="currentColor"></path>
+      <path d="M256 486a22 22 0 0 1-22-22v-48a22 22 0 0 1 44 0v48a22 22 0 0 1-22 22z" fill="currentColor"></path>
+      <path
+        d="M369.14 164.86a22 22 0 0 1-15.56-37.55l33.94-33.94a22 22 0 0 1 31.11 31.11l-33.94 33.94a21.93 21.93 0 0 1-15.55 6.44z"
+        fill="currentColor"></path>
+      <path
+        d="M108.92 425.08a22 22 0 0 1-15.55-37.56l33.94-33.94a22 22 0 1 1 31.11 31.11l-33.94 33.94a21.94 21.94 0 0 1-15.56 6.45z"
+        fill="currentColor"></path>
+      <path d="M464 278h-48a22 22 0 0 1 0-44h48a22 22 0 0 1 0 44z" fill="currentColor"></path>
+      <path d="M96 278H48a22 22 0 0 1 0-44h48a22 22 0 0 1 0 44z" fill="currentColor"></path>
+      <path
+        d="M403.08 425.08a21.94 21.94 0 0 1-15.56-6.45l-33.94-33.94a22 22 0 0 1 31.11-31.11l33.94 33.94a22 22 0 0 1-15.55 37.56z"
+        fill="currentColor"></path>
+      <path
+        d="M142.86 164.86a21.89 21.89 0 0 1-15.55-6.44l-33.94-33.94a22 22 0 0 1 31.11-31.11l33.94 33.94a22 22 0 0 1-15.56 37.55z"
+        fill="currentColor"></path>
+      <path d="M256 358a102 102 0 1 1 102-102a102.12 102.12 0 0 1-102 102z" fill="currentColor"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+      <path
+        d="M264 480A232 232 0 0 1 32 248c0-94 54-178.28 137.61-214.67a16 16 0 0 1 21.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200c31.34 0 59.57-5.07 81.61-14.67a16 16 0 0 1 21.06 21.06C442.28 426 358 480 264 480z"
+        fill="currentColor"></path>
+    </svg>
+
+  </a>
+</div>
+
+
+
+<script src="/js/ae2a0e7b.js"></script>
+
+      <!-- search -->
+      
+      
+<link rel="stylesheet" href="/css/82dd7e5a.css">
+
+  <form class="search-group">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+      <g fill="currentColor">
+        <path
+          d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
+          fill="currentColor"></path>
+      </g>
+    </svg>
+    <span id="search-input">搜索...</span>
+    <div class="short-key">
+      <kbd class="key-cap"><span>Ctrl K</span></kbd>
+    </div>
+  </form>
+
+  <script>
+    window.algolia = {
+      appId: "8BXXW27PT8",
+      SearchOnlyAPIKey: "4f4f17e3d110e3672e79b0ffdcf5035b",
+      indexName: "hex-blog" // 加这一行也不行
+    }
+    window.search = {
+      enable: "true"
+    }
+  </script>
+
+  
+<script src="/js/b9c2be9c.js"></script>
+
+      
+      <!-- navigation -->
+      
+<link rel="stylesheet" href="/css/3efc6cb5.css">
+
+
+<section class="category-nav scrollbar-obtrusive">
+  <ul><li data-path="timeline">
+        <a href="/archives">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 7v14"></path> <path d="M9 18l3 3l3-3"></path> <circle cx="12" cy="5" r="2"></circle> </g> </svg>
+          <div class="ellipsis">时间轴</div>
+        </a>
+      </li><li data-path="roadmap">
+        <a href="/roadmap">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M10.5 20.4l-6.9-6.9c-.781-.781-.781-2.219 0-3l6.9-6.9c.781-.781 2.219-.781 3 0l6.9 6.9c.781.781.781 2.219 0 3l-6.9 6.9c-.781.781-2.219.781-3 0z"></path> <path d="M9 14v-2c0-.59.414-1 1-1h5"></path> <path d="M13 9l2 2l-2 2"></path> </g> </svg>
+          <div class="ellipsis">路线</div>
+        </a>
+      </li><li data-path="resume">
+        <a href="/resume">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M14 3v4a1 1 0 0 0 1 1h4"></path> <path d="M5 8V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5"></path> <circle cx="6" cy="14" r="3"></circle> <path d="M4.5 17L3 22l3-1.5L9 22l-1.5-5"></path> </g> </svg>
+          <div class="ellipsis">简历</div>
+        </a>
+      </li></ul>
+  <p>分类</p>
+  <ul></ul>
+</section>
+
+
+<script src="/js/f8b20eb9.js"></script>
+
+      <!-- icp -->
+      
+    </div>
+  </aside>
+  <main>
+    
+<link rel="stylesheet" href="/css/3a546bfd.css">
+
+
+<div class="post-container">
+  <div class="content">
+    <header>
+      
+<link rel="stylesheet" href="/css/de5de8fb.css">
+
+<nav class="breadcrumb">
+  <a href="/" class="home tip btn-hover right" data-tip="首页">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+      <path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22c18.2 6.8 31.3 24.4 31.3 45c0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7c54.4-11.4 98.3-55.4 109.7-109.7c17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9c129.4 7 233.4 112 240.9 241.5c.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9c76.8 6.3 138 68.2 144.9 145.2c.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3c-8.4-110.1-96.5-198.2-206.6-206.7z" fill="currentColor"></path>
+    </svg>
+  </a>
+  
+  
+</nav>
+
+
+<script src="/js/31d6cfe0.js"></script>
+
+    </header>
+    <main class="scrollbar-obtrusive">
+      <div class="article-container">
+        <!-- 文章tags -->
+        
+        <!-- 渲染文章内容 -->
+        <article>
+          <h1></h1>
+          <!-- @format -->
+
+<p>加入星球快半年了，还没发过自我介绍呢，今天补上（万字长文）。</p>
+<ul>
+<li><p><a href="#%E5%BC%95%E5%85%A5">引入</a></p>
+</li>
+<li><p><a href="#2300-%E7%9D%A1300-%E8%B5%B7">23:00 睡，3:00 起</a></p>
+</li>
+<li><p><a href="#%E5%90%91%E5%BE%80%E7%A7%91%E5%AD%A6">向往科学</a></p>
+</li>
+<li><p><a href="#%E7%94%B3%E8%AF%B7%E8%87%AA%E5%AD%A6%E9%80%83%E6%97%B7%E8%AF%BE">申请自学，逃、旷课</a></p>
+</li>
+<li><p><a href="#%E8%87%AA%E5%AD%A6%E4%B8%A4%E5%B9%B4%E5%90%8E%E6%94%BE%E5%BC%83">自学两年（后放弃）</a></p>
+</li>
+<li><p><a href="#%E5%A4%96%E5%8D%96%E6%97%B6%E5%85%89%E6%9D%AD%E5%B7%9E">外卖时光（杭州）</a></p>
+</li>
+<li><p><a href="#%E4%B8%A4%E6%9C%88%E8%87%AA%E5%AD%A6%E8%8B%8F%E5%B7%9E">两月自学（苏州）</a></p>
+</li>
+<li><p><a href="#%E7%A6%BB%E5%BC%80%E5%A4%96%E5%8D%96%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91">离开外卖，独立开发</a></p>
+</li>
+<li><p><a href="#%E6%B1%82%E8%81%8C%E5%87%86%E5%A4%87">求职准备</a></p>
+</li>
+<li><p><a href="#%E7%B4%A7%E8%B5%B6%E6%85%A2%E8%B5%B6%E7%9A%84%E7%81%B5%E5%85%89">紧赶慢赶的「灵光」</a></p>
+</li>
+<li><p><a href="#%E5%86%8D%E4%BC%9A%E6%BB%B4%E7%AD%94">再会滴答</a></p>
+</li>
+<li><p><a href="#%E7%8E%B0%E7%8A%B6">现状</a></p>
+</li>
+<li><p><a href="#%E5%90%8E%E8%AE%B0">后记</a></p>
+</li>
+</ul>
+<h4 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h4><p>我是一个高中毕业生，没上过大学。</p>
+<p>这一点可能会让很多鱼友震惊。合着 “鱼塘” 里混进了一只没有 “素养” 的鱼？</p>
+<p>是高考落榜了吗？落榜了不会复读吗？要复读还不行的话，读个大专，然后升个本也行呀！</p>
+<p>确实，这是理性的做法，也是大多数人的选择。</p>
+<p>那你为什么不选呢？是非要特立独行是吧。</p>
+<p>这不没意识到嘛，当时。</p>
+<p>那个时候比较叛逆，逃课、旷课、“交白卷” 这些事都能干的出来。</p>
+<p>说实话，在此之前，我打死也没想到自己会这样，可这些事儿却还是真真实实地发生了。人生啊，就是如此奇妙。</p>
+<p>其实也没你们想象的那么糟，好歹也是考上重点中学零班的人，基础还是有的。只是，后边为什么会……？是跟人学坏了？还是接触了什么？</p>
+<p>没学坏，最多就是受到了鼓动，但这也是我自己的选择。</p>
+<h4 id="23-00-睡，3-00-起"><a href="#23-00-睡，3-00-起" class="headerlink" title="23:00 睡，3:00 起"></a>23:00 睡，3:00 起</h4><p>高三下学期，正是紧张冲刺的时候，我也不例外。但不同的是，我给了自己很大的压力 —— 要求自己 23:00 睡 3:00 起，利用一切可能利用的时间。</p>
+<p>之所以这么做是受《南方周报》的一篇文章的影响。里边说：</p>
+<ul>
+<li><p>人晚上睡 4 个小时也是可以的，不会怎么样（当然，要配合午休）；</p>
+</li>
+<li><p>王健林的作息也是这样的；</p>
+</li>
+</ul>
+<p>我深以为然，因为它正好迎合了我想 “挤” 出时间的需求。</p>
+<p>我太需要时间了！</p>
+<p>从那时起，我试图抓住一切课余时间，能憋就憋；我设好闹钟，到点就睡，而腾出来的时间全部投入到学习中。</p>
+<p>这多好呀，就跟 “鸡汤” 似的，照这么下去，不可能没有好结果吧？</p>
+<p>还是太理想了。用不了多久，我就发现自己得了痔疮，且严重失眠。</p>
+<p>痔疮使我便秘、便血、屁股痛，这直接导致我不能久坐。可我还要上课呀，怎么办呢？只能抓住机会，时不时的站一下，可连这样的机会都是少的，又不能一直站着（这样会显得突兀）。所以，我只能暗自忍受，苦不堪言。</p>
+<blockquote>
+<p>后边通过每天吃香蕉，坐站交替，已经痊愈了（高考后），此为后话。</p>
+</blockquote>
+<p>再说失眠，我也不知道为什么，中午和晚上开始难以入睡了。</p>
+<p>有时候，中午一个多小时的时间睡不着是常事，只能拖着疲惫的身躯去上课。大概到了第二节课的样子，困意又上来了，非常想睡，但那时又不能睡（如果睡了，精神会好很多），只能硬撑着。但硬撑着也不以为着困意就能过去，精神就能好转呀。于是，只能找其他的间隙再眯上一会儿，可问题是，还是睡不着啊！</p>
+<p>晚上也是，常常要在床上躺一两个钟头才能模糊入睡，中间一有什么动静就会被惊醒。可我设置的 3 点的闹钟怎么办呢？只能在铃响的时候掐掉了。</p>
+<p>就这样，理想中的作息迫于现实的窘境始终无法落实。我非常不甘，认为这样的作息一定是能实现的，时间也一定是能腾出来的！</p>
+<blockquote>
+<p>从这个时候开始，我就有点魔怔了。我似乎认为解决了作息、腾出了时间，就能解决当下的学习问题。我的工作重心似乎从学习转向了作息……</p>
+</blockquote>
+<p>为了践行这个作息，后边我还搬出去了。</p>
+<h4 id="向往科学"><a href="#向往科学" class="headerlink" title="向往科学"></a>向往科学</h4><p>我在校外的一个阿姨家租了个单间。在这里，我接触了《天才简史》—— 一个讲述国内外科学人物生平的励志节目，深为着迷。</p>
+<p>我时常在入睡前，把自己裹的严严实实，打开手机，一集又一集，一遍又一遍地刷着《天才简史》的视频，感动的泪如雨下。</p>
+<p>纯真率直的陈景润，隐姓埋名的邓稼先，天才传奇的特斯拉，无不令我钦佩至极、心向神往。</p>
+<ul>
+<li><p>我开始下意识的模仿他们的一些行为，不管好的坏的；</p>
+<blockquote>
+<p>其中就有边走路边举着书背单词的场景，只为模仿陈景润思考问题过于专注而撞树的轶事，离心中的 “偶像” 更近一些。</p>
+</blockquote>
+</li>
+<li><p>我把一些让我触动、哽咽的画面截下来，洗成照片，随身携带；</p>
+</li>
+<li><p>我专门网购了几张特斯拉的海报，贴在书桌前，每日瞻仰；</p>
+</li>
+<li><p>我成套成套的购买科学家传记、科普读物、物理学题典（大学），反复阅读、翻看；</p>
+</li>
+<li><p>我浸淫理论而忽视了实践；</p>
+</li>
+<li><p>我开始反感一切功利的行为，包括 “刷” 题和 “拿” 分数；</p>
+</li>
+</ul>
+<p>我彻底痴迷了！</p>
+<h4 id="申请自学，逃、旷课"><a href="#申请自学，逃、旷课" class="headerlink" title="申请自学，逃、旷课"></a>申请自学，逃、旷课</h4><p>不久，我就发现自己已经偏离了老师的教学轨迹，开始跟不上了。</p>
+<p>我英语基础薄弱、又训练过少，这导致我根本完不成平常的测试（理综试卷只能完成物理），只能 “交白卷” 了。</p>
+<p>而 “交白卷” 的后果自然就是惨淡的分数，这严重打击了我的自信心，也催生了我要 “独立自学，脱离学校体系” 的想法。</p>
+<p>我向班主任申请了自学，但未能获得批准，他们要求父母的签字，而我没有。</p>
+<p>无奈，我只能退而求其次，在老师的默允下，把桌椅搬到了最后排，准备自己搞！</p>
+<p>除了数学和物理，其他的科目似乎都可以利用。</p>
+<p>然而，我还是太理想了。老师们经常下场巡查，还时不时提个问，而我又脸皮薄，不管公然违背他们，还时不时装个认真听讲的样子。这就导致我的计划时常中断，不能有效实施。</p>
+<p>加上痔疮和作息的问题，我感觉越发痛苦，越发想要逃离。</p>
+<p>终于，在同桌玩笑式的鼓动下，我终于下定了决心 —— 把书一卷，直接不来了。</p>
+<p>用不了多久，班主任的厉声警告就到了。我又灰溜溜地回去了。</p>
+<p>只不过，我再也没有好好的听课了。而是直接看起了课外书（《戚继光大传》、《跃迁》、《如何学会阅读》这些），好不逍遥。</p>
+<p>有时，我就直接不来了，或者上了几节课后就直接溜了。他也睁一只眼闭一只眼，估计是怕管控过严，怕我走极端吧。</p>
+<p>我出来后，没有回去，也不能回去，被阿姨看到就不好解释了。我只能在周边的书店闲逛，看看有没有什么新的、好看的课外书。它们为我打开了一个新的世界，这个世界是如此宁静、安逸，没有俗世的这些烦恼。</p>
+<p>那我不高考了吗？</p>
+<p>要的，我已经从网上了解了社会考生这一回事，知道自己是符合条件的，拿到毕业证就行。</p>
+<h4 id="自学两年（后放弃）"><a href="#自学两年（后放弃）" class="headerlink" title="自学两年（后放弃）"></a>自学两年（后放弃）</h4><p>我终于混到了毕业，真正属于我的时间开始了。我决定自学两年！</p>
+<p>为什么是两年？</p>
+<ul>
+<li><p>我觉得自己的英语基础太差，需要从基础开始学起，这样想来，时间越充裕越好；</p>
+</li>
+<li><p>我觉得自己比别人要慢，怕上大学后跟不上，想提前学一下大学数学和物理；</p>
+</li>
+<li><p>我想拿到一个大的结果，并认为这只是时间问题；</p>
+</li>
+<li><p>一年太紧了，我有点恐惧；</p>
+</li>
+</ul>
+<p>那你这两年都做了些什么？</p>
+<ol>
+<li><p>学了大半年的高数（现在忘的差不多了）；</p>
+</li>
+<li><p>开始时间记录（纸笔）；</p>
+</li>
+<li><p>接触了《穷爸爸富爸爸》，买了一整套书，然后开始炒股（小额）；</p>
+</li>
+<li><p>买了电脑，学了打字，并深入练习了双拼；</p>
+</li>
+<li><p>接触了 WPS 和 GTD（Getting Things Done），开始有意识的打造自己的框架（自理控系统）；</p>
+</li>
+</ol>
+<p>做了这么多，却唯独忽视了原来的初心。在离高考还剩 3 个月的时候，我选择了放弃。</p>
+<p>我始终提不起对高考的重视，并且投入备考的时间和精力确实有点少，准备不充分，心里充满的恐惧。而另一边，我了解到 Android 可以实现我的需求，做自我软件的欲望愈发强烈，也不愿再继续备考了。</p>
+<p>我学了三个月左右的 Kotlin 和 Android（爷爷根本不知道我在干嘛，只看到我每天都在书桌前折腾），在高考那几天，我借口考试紧张，租住县城，考完再回。实际上，我是去骑行了（当时车上带着帐篷这些），边骑边学，到了龙虎山脚下。</p>
+<p>听到山上的欢声笑语，我却没有一点儿游玩的心情，只想抓紧时间学习，实现我的软件。</p>
+<p>回来后，我就开启了沉浸式的开发。</p>
+<p>到了查分的时候，我告诉他们我差了 3 分，没能考上本科，所以只能报专科。后边下通知书的时候，我就佯装去领，然后在爷爷面前一晃而过，说考上 “杭州职业技术学院” 了。</p>
+<p>就这样，我瞒天过海，骗过了身边的所有人。</p>
+<p>我不得不这样做，为的是不让家人们担心，另一个，便是人言可畏！对我是如此，对家人们也是如此。别人根本不在乎你发生了什么，他们只是看不惯你异类的行为，嘲笑你不如意的结果，然后，一张张嘴，把你吞噬。</p>
+<p>到了 9 月中旬，我不得不离开了，只留下了一个半成品 —— <a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/InspirationToDo">灵光待办</a>。</p>
+<h4 id="外卖时光（杭州）"><a href="#外卖时光（杭州）" class="headerlink" title="外卖时光（杭州）"></a>外卖时光（杭州）</h4><p>我真的来到了杭州，住进了一家青年旅社，第二天一早，我就成了一个外卖骑手。</p>
+<p>为什么是外卖？</p>
+<ul>
+<li><p>自学的时候就关注到了生鲜电商，想从单个超市开始，做一个配送平台，涵盖超市和生鲜的配送业务。所以外卖对我来说是一个非常好的入行学习机会。</p>
+<blockquote>
+<p>不是有句话叫：“了解一个行业最好的方法就是去这个行业内打工嘛”，当时有这样的想法。</p>
+</blockquote>
+</li>
+<li><p>感觉杭州的消费实在是太高了，没敢纯粹的在杭州学习；</p>
+</li>
+<li><p>也这么大了，又花了老妈这么多钱，想分担一下，不愿啃老；</p>
+</li>
+<li><p>没挣过钱，想体验一下；</p>
+</li>
+</ul>
+<p>最开始的时候，我没想着挣多少钱，只想边跑边学，养活自己的同时继续完善「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/InspirationToDo">灵光待办</a>」。</p>
+<p>不过外卖生活并没有给我留下多少时间，在多人合住的宿舍里根本不适合学习，他们肆无忌惮的外放，各自不同的作息，对学习异类的眼光等等，都是精进的障碍。</p>
+<p>没办法，我只能在路上学了。为此，我尝试把《大话设计模式》拆掉，一张一张地学。不过效果不太好，没留下什么印象，后来就不了了之了。</p>
+<p>之后从专送离职，转到众包，乐跑，接触了一些新的人群，也着实学到了不少。</p>
+<p>在为期最长的乐跑生活中，我也曾做过一些学习尝试，不过受限于各种阻力，后来都不了了之了。</p>
+<ul>
+<li><p>尝试早起统析时间记录，但不稳定，时有时无；</p>
+</li>
+<li><p>尝试晚上回来后挤时间学习，但室友们刷抖音的外放声太大了，真的很难专注，说了几次后边又不记得了（不会主动为我考虑），再加上有时要和他们一起聚餐、应酬，在时间上也不稳定；</p>
+</li>
+</ul>
+<h4 id="两月自学（苏州）"><a href="#两月自学（苏州）" class="headerlink" title="两月自学（苏州）"></a>两月自学（苏州）</h4><p>22 年 9 月中旬，正值外卖淡季，我受不了当下的生活了，决心离开。</p>
+<p>我真的走了，想回老家租个便宜的房子，继续学习，完成开发。但令我没想到的是，鹰潭因疫情封城（我要从鹰潭 -&gt; 金溪），我被困了十天。</p>
+<p>在这十天里，我焦急如焚，日夜盼着解封的消息，毕竟这一天天的钱烧的慌啊。我又失眠了，午休要躺两三个钟头才能睡着，晚上也是，一般都得拖到凌晨三四点才睡得着，而早上起来的时候就快中午了。</p>
+<p>躺着的时候是不感觉时间流逝的，我只觉得迟迟无法入睡，却不知一两个小时已经过去了，这真是一种巨大的浪费！</p>
+<p>如果能解决这个问题就好了。</p>
+<p>来不及多想，就听到了解封的消息。但还是没有去金溪的车，而且，要出城还得申请一个什么证来着（忘记了），又墨迹了几天，最终决定去我堂哥那里（苏州）。</p>
+<p>于是，租车前往。</p>
+<p>原来，我是准备深入学习 Java 和 Android，并继续完善「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/InspirationToDo">灵光待办</a>」的，但一想到那难以入眠的感觉，就非常痛苦。心想以后可能还会遇到，一定要解决它！</p>
+<p>我的方案是：</p>
+<ol>
+<li><p>点击软件图标，自动根据当前时段设置相应的午、晚睡闹钟；</p>
+</li>
+<li><p>在午、晚睡响铃闹钟之前，定制一个微振闪光提示（可设置时长），保证在清醒时（无法入睡）能够感知，迷糊（入睡）时不至于惊扰；</p>
+</li>
+<li><p>如果在接收到 “振光提示” 后依然十分清醒，那就直接起床，阅读，或是逛逛开发者社区；如果接收到了，但已经有点 “模糊” 了，就忽略它，直到闹铃响起；</p>
+</li>
+<li><p>点击设置两类闹钟后同时开启勿扰模式，再次解锁屏幕后自动关闭（本想同时取消之前的闹钟设置，但出于系统限制，始终未能如愿）；</p>
+</li>
+</ol>
+<p>为此，我如约学习了 Java（发现源码和许多教程是用 Java 写的，有些看不懂），但转「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/InspirationToDo">灵光待办</a>」完善为「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/YidianClock">一点闹钟</a>」开发。</p>
+<p>就这样度过了两个多月的时间，为了进一步积累资金，赶上春节跑单的活动，我又回到了杭州。</p>
+<h4 id="离开外卖，独立开发"><a href="#离开外卖，独立开发" class="headerlink" title="离开外卖，独立开发"></a>离开外卖，独立开发</h4><p>跑完春节活动，我手里也积累下了几万的学习资本，是时候离开了。</p>
+<p>为什么离开？</p>
+<ul>
+<li><p>感受不到成长，一切都不再新鲜；</p>
+</li>
+<li><p>想做的软件没做出来，不能留下遗憾；</p>
+</li>
+<li><p>赚够了能让自己好好学一年的钱；</p>
+</li>
+<li><p>AI 时代来临，是个学习、开发的好时机；</p>
+</li>
+</ul>
+<p>2 月下旬，我告别杭州，来到了共青（九江），发小在读的大学（南大共院）附近。在这里租了个单间，准备继续学习、开发。</p>
+<p>我先是学习了 Compose —— Android 最新声明式 UI 框架，用 Kotlin 编写，并基于它做了一个练手项目 ——「<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/FA-S0EcZ1MIhuvz-pseeaA">吃什么</a>」。</p>
+<p>这也是出于我自己的一个需求。当时为了节省成本，我几乎天天早上和中午都自己煮面（粉）吃，晚上才去外边。</p>
+<p>对于外边的餐馆，我只要吃上了，觉得没什么问题，就会一直在他们家吃，直到离开。而我就 “赖” 上了一家 —— 蒸香木桶饭，他家菜挺多的，每次去都不知道点什么，墨迹了半天，总是会不自觉的点一份腐竹炒肉。</p>
+<p>时间一长，我就发现问题了。心想：“不对呀，我天天这么吃，营养肯定不均衡，哪天挂了都不知道”，但点其他的又选择困难，点来点去总是点那些吃过的，怎么办呢？</p>
+<p>随机啊！</p>
+<p>拍下菜单，然后通过 OCR 识别录入（需要整理一下），然后写入列表，随机不就成了嘛！</p>
+<p>于是，「<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/FA-S0EcZ1MIhuvz-pseeaA">吃什么</a>」就这么诞生了。</p>
+<p>之后，因为一些不成熟的想法分心了一段时间，一晃就到了暑假。</p>
+<p>这个暑假，我创造了「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/Flow-of-Time">时光流</a>」，一款支持插入、伴随事务（嵌套展示），并能自动分类、统计的时间记录软件。</p>
+<p>它的开发，当然也来自我的个人需求。</p>
+<p>从最早的纸笔，到后来的 Excel（电脑）、便签（手机）协同，再到最后的「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/Flow-of-Time">时光流</a>」，断断续续，始终无法割舍。</p>
+<p>时间记录的成本很高，24 小时不间断的时间记录更是如此，真的有必要吗？我曾反复问过自己。</p>
+<p><img src="https://image-bed-1315938829.cos.ap-nanjing.myqcloud.com/image-20240324171825581.png" alt="image-20240324171825581"></p>
+<p>但几乎每次，我都说服了自己，坚持下去！我已经看到了效果：</p>
+<ul>
+<li><p>从最初的怎么带回去的怎么带过来（要学、看的书），到现在能一一落实了，尽管每次都不能全额完成；</p>
+</li>
+<li><p>从原来自我感动式的努力中跳了出来，看到了真实的自己，作息、投入、进度，一清二楚；</p>
+</li>
+</ul>
+<p>另外，我发现自己每次断开一阵之后总有一种缺失感，生活状态也乱了许多，我会经常性的打破以前的约束，破罐子破摔，无节制的刷视频，而后一阵空虚。</p>
+<p>每当这个时候，我就有一种恢复框架（记录、约束等）的强烈冲动，然后运行一阵，又断了，始终无法持续。</p>
+<p>这里有时间和环境的原因，但更多的还是维持框架运行本身的成本太大了！我亟需解决方案，而做自己的软件，实现自动化，是我能想到也能够实现的最优解。</p>
+<p>我不是没有找过其他的软件，如 ”时光序“、”爱时间“、”番茄 ToDo“ 等，都不符合我的需求，它们不支持插入、伴随，调整繁杂，类属不便（不自由），我只能自己实现。</p>
+<p>两个月后，它重构到了第二版，当我创建好第三版交互，并准备动手时，却止步了。</p>
+<h4 id="求职准备"><a href="#求职准备" class="headerlink" title="求职准备"></a>求职准备</h4><p>我第一次从亲友的口中听到了 ”无业游民“ 这几个字，虽然在他看来，这没什么，也是无意的，但我听起来却觉得格外刺耳。</p>
+<p>我追寻自己的兴趣，学习精进，做自己的软件，打造自己的框架，这一切，他们都看在眼里，却只留下了个 ”无业游民“ 的印象。呵~</p>
+<p>一直以来，我都不在乎别人怎么看我，统统与我无关，我只在乎我在乎的，追求我想要的，任何人都阻挡不了我！</p>
+<p>但现在，我身边、亲近的人，却是这样看我。</p>
+<p>我开始动摇了，我是不是太过自我，太天真了？我到底算什么？搞技术的？还是自由职业者？好像都不是……</p>
+<p>求职的念头冒了出来，从未如此强烈。</p>
+<p>我一直很关注科技和编程动态，知道鱼皮哥在 3、4 月份创业了，当时我就心动了，但自己的软件还没做出来，也没太放在心上。</p>
+<p>但现在软件也做的差不多了，鱼皮哥招人的方式又有点不一样，我行不行呢？</p>
+<p>凭什么？就靠你做的这点软件吗？专业对口吗？去了你能干活吗？</p>
+<p>好像不行！理性的分析告诉我，必须放弃以前那些天真的想法，立足现实。</p>
+<p>鱼皮哥的公司好像是搞 Java 和 Web 的。Java 我会呀，但 Web……</p>
+<p>从来没接触过，网络、MySQL、Spring、前端，这些都得从头开始学。</p>
+<blockquote>
+<p>自己的软件根本不需要网络，也不需要深入学什么数据库，用 Room 库直接操作 SQLite 就行了，如果需要写点 SQL，就直接交给 GPT。</p>
+</blockquote>
+<p>我的想法依然是做一个产品，然后靠这个产品去求职，还是老样子，既天真又固执。</p>
+<p>那做什么呢？</p>
+<p>就做「灵光」的 PC 端吧，这样能以 Markdown 的形式完整的展示，也能在自动分类未能类属的时候手动拖拽分类，还能对一些条目添加指导，告诉系统该如何分类等等。</p>
+<p>那我是如何构建所需知识的呢？</p>
+<ul>
+<li><p>通过轩辕老师的《趣话计算机底层技术》，我了解了计算机底层的一些知识，在大脑中建立了一些基本概念，理清了一些在之前开发中比较模糊的东西；</p>
+<blockquote>
+<p>尽管书中的知识讲得有趣、通俗，但我还是不能完全理解（没学过 C），马马虎虎地很是勉强的读完了。</p>
+</blockquote>
+</li>
+<li><p>通过《网络是怎样连接的》，我算是知道 DNS、IP、HTTP 请求和响应这些东西是什么了；</p>
+</li>
+<li><p>通过黑马的 MySQL 课程，我学会了如何编写联查 SQL，如何设计库表，这对我现有的应用和大量的时间记录数据来说至关重要；</p>
+</li>
+<li><p>通过尚硅谷禹神的 “HTML + CSS”、“Vue2”、“Vue3 + TypeScript” 和黑马 pink 老师的 “JavaScript” 课程，我入门了前端；</p>
+</li>
+<li><p>通过黑马 “Java Web“ 和 ”MyBatis“ 课程，我入门了后端，连通了前端，可以开始项目了。</p>
+</li>
+</ul>
+<p>值得一提的是，”尚硅谷“ 这个词我还是从鱼皮哥的视频中第一次听到的，那时还没加入星球，也不知道它到底是啥，只是记下了，有个印象。</p>
+<p>后来找学习资料的时候回忆起来，才去看了下，果然不错，顿感发现了宝藏，以后的学习就逐渐从书籍转为视频了。</p>
+<p>”黑马“ 也是一样，只不过是在进入星球后，在推荐资料中获知的。在此感谢鱼皮哥。</p>
+<p>学习方式转变后，进度一下子就快了起来，成长之快让我自己都感到震惊。</p>
+<p>之后，我开发了「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/JointQueryUpdater">联查直更</a>」作为实践。</p>
+<blockquote>
+<p>偷个懒，就不扩展了，点开链接看看吧。</p>
+</blockquote>
+<h4 id="紧赶慢赶的「灵光」"><a href="#紧赶慢赶的「灵光」" class="headerlink" title="紧赶慢赶的「灵光」"></a>紧赶慢赶的「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/LingGuang_FE">灵光</a>」</h4><p>在我我学完那些必需的技术(Vue3、TS 没学)，具备基本的项目能力后，已经是 1 月上旬了，时间变得无比紧张起来。我尽可能地推迟回家的日期（2 月 4 日），希望能有更多的时间投入，在节前上线。</p>
+<p>我先从核心业务（自动分类）开始，用 Trie 树创建了一个分类器，直接操作文件中的数据，后来迁移到数据库，顺势写了一些接口。</p>
+<blockquote>
+<p>分类器的大部分代码是用 Kotlin 写的，为了求快（集合操作非常方便），也更熟悉，但后来想到鱼皮哥的公司主要用的是 Java，才转移了重心，刻意练习。</p>
+</blockquote>
+<p>然后开始准备前端。</p>
+<p>本想继续用 Vue2 的，但发现它已经不维护了，我犹豫了。</p>
+<p>难道要新学 Vue3 + TS 吗？这样时间不是更紧张？但它已经不维护了呀，而且 Vue3 是大势所趋……</p>
+<p>我终究是选择了后者，无他，顺势尔。</p>
+<p>但，我还是高估了自己，低估了项目。越到后边，需求（细节）越多，而时间越发紧迫了。</p>
+<p>有些实现令人费解，明明按文档说的，配置好了一切，可结果还是出人意料，不知道到底是哪里出了问题，让人觉得莫名奇妙。</p>
+<p>为了解决这些细节问题，我花费了大量的时间和精力，导致核心、主要功能迟迟未能开发。</p>
+<p>不能再这样下去了，必须丢掉样式，只关注核心的交互逻辑。</p>
+<p>于是，「灵光核心」就这样诞生了。它试图直接调用分类器的能力，对现有数据进行分类，并对未能类属的数据提供沉浸式的手动打标功能，还允许通过自然语言定义规则，AI 解析，更新分类器。</p>
+<p>但很可惜，时间太紧张了，我只有不到 5 天的时间。</p>
+<p>两年了，我必须得回去了，好好陪陪老妈，她为我付出了太多太多……</p>
+<p>春节诸事繁多，再加上空时陪伴老妈，我鲜少能有自己的时间。尽管如此，我还是完成了一些整理工作，上线了部分应用的 README。</p>
+<h4 id="再会滴答"><a href="#再会滴答" class="headerlink" title="再会滴答"></a>再会滴答</h4><p>后来，不知是何种因缘际会，亦或是哪个神明的指引，我 <strong>再次</strong> 发现了 <strong>滴答清单</strong>。</p>
+<p>现在的它，可比以前好多了，该有的也都有了，包括根据输入自动设置提醒。</p>
+<blockquote>
+<p>我开发「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/InspirationToDo">灵光待办</a>」那会儿，了解过滴答清单，但当时它并没有智能提醒的功能，UI 也不太符合我的胃口。所以，找了一圈没遇到满意的，就自己上了。</p>
+<p>手握锤子的人，总是看哪哪儿都不顺眼，哪哪儿都像钉子。</p>
+</blockquote>
+<p>我突然觉察，自己会不会是在重复造轮子？我需要的它好像都能满足啊！</p>
+<p>既惶恐又惊喜。</p>
+<p>不过这次，我没有再像以前那样，浮躁、排斥了。我坦然接受，把它视为 ”自己开发的产品“，全面应用。</p>
+<p><img src="https://image-bed-1315938829.cos.ap-nanjing.myqcloud.com/image-20240325121000469.png" alt="image-20240325121000469"></p>
+<p>慢慢的，我发现以前一些非常看重的功能（如智能提醒）似乎也不是那么重要了，全链路运行起来（框架）的时候，使用次数寥寥无几。</p>
+<p>难道是自我感觉的 ”伪需求“？</p>
+<p>谁知道呢。不过，「灵光」的开发意愿确实已经大不如前了，先放着吧，谁知道什么时候会再开始呢？</p>
+<h4 id="现状"><a href="#现状" class="headerlink" title="现状"></a>现状</h4><p>现在这些项目也基本上都部署完了（还差个「<a target="_blank" rel="noopener" href="https://github.com/Huaguang-XinZhe/LingGuang_FE">灵光</a>」README），从最初的数十小时，到现在的一个小时内，我是越来越自然、熟练了。</p>
+<p>在这个过程中，我发现自己竟然对网络安全（尤其是渗透测试）产生了兴趣，总是忍不住看相关的视频和书籍。</p>
+<p>看来又有搞头了！</p>
+<p>不过现在没有太多时间，一方面要准备求职，一方面要帮老妈做点事（糊纸盒），只能暂时压置了。</p>
+<h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>至此，这篇自我介绍到这里就结束了，跨 4 天，7 次，耗时 12 个小时，总算完成了。</p>
+<p>我从没想到一篇小小的自我介绍如此耗费时间与精力，从最开始的磨磨唧唧，到后边的行云流水，我真庆幸自己坚持了下来。</p>
+<p>这让我想到我刚入行外卖的时候，天降大雨，我全身湿透，眼镜模糊，手机无法操作（显示屏沾水），两个 1 小时的订单（新手订单）全部超时（半小时以上），我心急如焚，却不知路在何方。</p>
+<p>当时我就想走了，这真不是人干的活！但最后还是忍了下来，干满了一个月。</p>
+<p>而那时，已经自然轻松，觉得没什么了。</p>
+<blockquote>
+<p>看来，有时候还真得抛掉一些即时情绪，坚持下来，一定会看到不一样的风景的。</p>
+</blockquote>
+<p>感谢各位的耐心与坚持，看完了这篇冗长的杂文。祝各位求职顺利、事业有成、快乐幸福！</p>
+
+        </article>
+        
+        
+<link rel="stylesheet" href="/css/80d65618.css">
+
+
+<div class="copyright">
+  <a target="_blank" href="https://huaguang-xinzhe.github.io/2024/03/25/%E4%B8%8D%E7%BE%81%E4%B9%8B%E8%B7%AF/">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+        <path d="M3 6v13"></path>
+        <path d="M12 6v13"></path>
+        <path d="M21 6v13"></path>
+      </g>
+    </svg>
+    <span></span>
+  </a>
+  <ul>
+    <li>
+      <span>作者</span>
+      <p> Huaguang</p>
+    </li>
+    <li>
+      <span>发布于</span>
+      <p>2024-03-25</p>
+    </li>
+    <li>
+      <span>许可</span>
+      <p><a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+    </li>
+  </ul>
+</div>
+
+
+<script src="/js/31d6cfe0.js"></script>
+
+        
+        <!-- 评论 -->
+        <div id="vcomments"></div>
+      </div>
+    </main>
+  </div>
+  
+  <div class="meta-container">
+    <div class="toc-wrapper content-dialog">
+      <p class="catalog">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 18h12"></path>
+          </g>
+        </svg>
+        <span>目录</span>
+      </p>
+      <!-- 文章toc -->
+      
+    </div>
+  </div>
+  
+</div>
+
+<script>
+  window.page = {
+    use: ''
+  }
+  window.katex = {
+    enable: "",
+    jsCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js",
+    cssCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css"
+  }
+  window.mermaid = {
+    enable: "",
+    cdn: "//cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js",
+  }
+  window.valine = {
+    enable: "",
+    appId: 'yourValineAppId',
+    appKey: 'yourValineAppKey',
+    avatar: 'monsterid',
+    cdn: '//unpkg.com/valine@latest/dist/Valine.min.js',
+    serverURLs: ''
+  };
+</script>
+
+
+<script src="/js/24e1d5fd.js"></script>
+
+  </main>
+</body>
+<script>
+  window.i18n = {
+    "tip-collapse": "折叠",
+    "tip-expand": "展开",
+    "text-select": "选择",
+    "text-move": "移动",
+    "text-esc": "关闭",
+    "tip-status-done": "完成",
+    "tip-status-doing": "进行中",
+    "tip-status-todo": "待办",
+    "tip-status-other": "废弃",
+    "tip-status-default": "默认",
+    "tip-roadmap-today": "定位今天",
+    "text-search": "搜索...",
+    "text-today": "今天",
+    // month
+    "January": "一月",
+    "February": "二月",
+    "March": "三月",
+    "April": "四月",
+    "May": "五月",
+    "June": "六月",
+    "July": "七月",
+    "August": "八月",
+    "September": "九月",
+    "October": "十月",
+    "November": "十一月",
+    "December": "十二月",
+  }
+</script>
+
+<script src="/js/58c91c4e.js"></script>
+
+
+</html>
